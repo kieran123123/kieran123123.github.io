@@ -61,11 +61,12 @@ ul {
 
   .pageContent {
     width: 55vw;
-    height: 20vw;
+    height: 40%;
     outline: none;
-    border: 1px solid grey;
+    background-color: rgba(33, 124, 57, 0.2);
     margin: auto;
     margin-top: 5%;
+    border-radius: 4px;
   }
 
   .para1 {
