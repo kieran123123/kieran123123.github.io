@@ -6,7 +6,7 @@ body, html {
 
 .bg {
     background-image: url("../images/Home_services.jpg");
-    height: 50%; 
+    height: 30vw; 
     background-position: 30% 75%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,11 +14,13 @@ body, html {
 }
 
 .title {
+    font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     position: relative;
     top: 30%;
+    font-weight: bold;
 }
 
 .logo {
@@ -58,8 +60,8 @@ ul {
   }
 
   .pageContent {
-    width: 50%;
-    height: 32%;
+    width: 55vw;
+    height: 20vw;
     outline: none;
     border: 1px solid grey;
     margin: auto;
