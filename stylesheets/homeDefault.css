@@ -15,7 +15,7 @@ body, html {
 
 .title {
     color: white;
-    font-size: 400%;
+    font-size: 4vw;
     text-align: center;
     position: relative;
     top: 30%;
@@ -53,6 +53,31 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 1vw;
     font-weight: bold;
+  }
+
+  .pageContent {
+    width: 50%;
+    height: 32%;
+    outline: none;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .para1 {
+    float: left;
+    font-size: 1.5vw;
+    border-left: 3px solid #217c39;
+  }
+
+  .para2 {
+    float: left;
+    font-size: 1vw;
+  }
+
+  .para3 {
+    float: left;
+    font-size: 1vw;
   }
