@@ -14,16 +14,6 @@ body, html {
     box-shadow: 0 0 8px 8px white inset;
 }
 
-.title {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 5vw;
-    text-align: center;
-    position: relative;
-    top: 30%;
-    font-weight: bold;
-}
-
 .logo {
     position: absolute;
     top: 2%;
@@ -42,7 +32,6 @@ body, html {
     width: 90%;
     height: 60vw;
     outline: none;
-    background-color: rgba(33, 124, 57, 0.15);
     margin: auto;
     margin-top: 5%;
     border-radius: 4px;
@@ -52,16 +41,19 @@ body, html {
     float: left;
     font-size: 3vw;
     border-left: 3px solid #217c39;
+    padding: 1%;
   }
 
   .para2 {
     float: left;
     font-size: 2vw;
+    padding: 1%;
   }
 
   .para3 {
     float: left;
     font-size: 2vw;
+    padding: 1%;
   }
 
   .ul2 {
@@ -74,7 +66,6 @@ body, html {
     padding: 0;
     border-radius: 4px;
     text-align: center;
-    background-color: rgba(33, 124, 57, 0.15);
     float: bottom;
   }
   

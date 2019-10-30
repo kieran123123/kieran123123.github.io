@@ -6,7 +6,7 @@ body, html {
 
 .bg {
     background-image: url("../images/Home_services.jpg");
-    height: 30vw; 
+    height: 20vw; 
     background-position: 30% 75%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,21 +14,11 @@ body, html {
     box-shadow: 0 0 8px 8px white inset;
 }
 
-.title {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 5vw;
-    text-align: center;
-    position: relative;
-    top: 30%;
-    font-weight: bold;
-}
-
 .logo {
     position: absolute;
     top: 2%;
     left: 2%;
-    width: 7%;
+    width: 10%;
     height: auto;
     cursor: pointer;
 }
@@ -56,7 +46,7 @@ body, html {
     text-align: center;
     padding: .7vw 1vw;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 130%;
     cursor: pointer;
   }
 
@@ -68,9 +58,8 @@ body, html {
     width: 55vw;
     height: 40%;
     outline: none;
-    background-color: rgba(33, 124, 57, 0.15);
     margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     border-radius: 4px;
   }
 
@@ -78,16 +67,19 @@ body, html {
     float: left;
     font-size: 1.5vw;
     border-left: 3px solid #217c39;
+    padding: 1%;
   }
 
   .para2 {
     float: left;
     font-size: 1vw;
+    padding: 1%;
   }
 
   .para3 {
     float: left;
     font-size: 1vw;
+    padding: 1%;
   }
 
   .ul2 {
@@ -98,7 +90,6 @@ body, html {
     margin-top: 6vw;
     margin-bottom: 1vw;
     padding: 0;
-    background-color: rgba(33, 124, 57, 0.15);
     border-radius: 4px;
     text-align: center;
   }
