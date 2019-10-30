@@ -64,10 +64,6 @@ body, html {
     text-decoration: underline;
   }
 
-  .active {
-    text-decoration: underline;
-  }
-
   .pageContent {
     width: 55vw;
     height: 40%;
