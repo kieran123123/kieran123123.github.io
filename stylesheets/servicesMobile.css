@@ -5,9 +5,9 @@ body, html {
 }
 
 .bg {
-    background-image: url("../images/Markets.jpg");
+    background-image: url("../images/Home_services.jpg");
     height: 40vw; 
-    background-position: 30% 75%;
+    background-position: 30% 60%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 16%;
@@ -61,7 +61,7 @@ body, html {
     list-style-type: none;
     margin: auto;
     overflow: hidden;
-    margin-top: 6vw;
+    margin-top: 10vw;
     padding: 0;
     border-radius: 4px;
     text-align: center;
