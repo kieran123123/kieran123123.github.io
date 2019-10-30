@@ -123,3 +123,7 @@ body, html {
   .li2 a:hover:not(.active) {
     text-decoration: underline;
   }
+
+  .menu {
+    display: none;
+  }

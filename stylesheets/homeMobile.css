@@ -93,3 +93,10 @@ body, html {
   .li2 a:hover:not(.active) {
     text-decoration: underline;
   }
+
+  .menu {
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+    width: 5%;
+  }
