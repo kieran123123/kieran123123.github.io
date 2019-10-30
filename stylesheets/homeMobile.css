@@ -39,8 +39,8 @@ body, html {
   }
 
   .pageContent {
-    width: 55vw;
-    height: 40%;
+    width: 70vw;
+    height: 60vw;
     outline: none;
     background-color: rgba(33, 124, 57, 0.15);
     margin: auto;
@@ -50,25 +50,25 @@ body, html {
 
   .para1 {
     float: left;
-    font-size: 1.5vw;
+    font-size: 3vw;
     border-left: 3px solid #217c39;
   }
 
   .para2 {
     float: left;
-    font-size: 1vw;
+    font-size: 2vw;
   }
 
   .para3 {
     float: left;
-    font-size: 1vw;
+    font-size: 2vw;
   }
 
   .ul2 {
     list-style-type: none;
     margin: auto;
     overflow: hidden;
-    width: 55vw;
+    width: 70vw;
     margin-top: 6vw;
     margin-bottom: .5vw;
     padding: 0;
