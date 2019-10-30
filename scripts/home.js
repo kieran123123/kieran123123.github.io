@@ -15,5 +15,5 @@ function triggerMenu() {
 
 function exitMenu() {
     document.getElementById("drop").style.transition = ".4s ease";
-    document.getElementById("drop").style.top = "-110%";
+    document.getElementById("drop").style.top = "-1000%";
 }
