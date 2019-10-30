@@ -1,5 +1,4 @@
 function checkMobile() {
-    var x = document.getElementById("menu")
     if ($(window).width() < 900) {
         swapStyleSheet("stylesheets/homeMobile.css");
     }
@@ -7,4 +6,9 @@ function checkMobile() {
 
 function swapStyleSheet(sheet) {
     document.getElementById('pageStyle').setAttribute('href', sheet);
+}
+
+function triggerMenu() {
+    document.getElementById("drop").style.transition = ".4s ease";
+    document.getElementById("drop").style.top = "0%";
 }
