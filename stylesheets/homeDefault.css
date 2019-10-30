@@ -87,9 +87,7 @@ body, html {
     list-style-type: none;
     margin: auto;
     overflow: hidden;
-    width: 55vw;
     margin-top: 6vw;
-    margin-bottom: 1vw;
     padding: 0;
     border-radius: 4px;
     text-align: center;
@@ -102,7 +100,7 @@ body, html {
   .li2 a {
     display: block;
     color: #217c39;
-    padding: .7vw 1vw;
+    padding: .7vw 4.5vw;
     text-decoration: none;
     font-size: 1vw;
     cursor: pointer;
