@@ -26,8 +26,8 @@ body, html {
 /* Navigation menu */
 .ul1 {
     position: absolute;
-    top: 3%;
-    right: 2%;
+    top: 5%;
+    right: 5%;
     list-style-type: none;
     margin: 0;
     padding: 0;
