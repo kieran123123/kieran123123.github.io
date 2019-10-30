@@ -123,3 +123,15 @@ body, html {
   .menu {
     display: none;
   }
+
+  .logo_menu {
+    display: none;
+  }
+
+  .exitMenu {
+    display: none;
+  }
+
+  .ul3 {
+    display: none;
+  }

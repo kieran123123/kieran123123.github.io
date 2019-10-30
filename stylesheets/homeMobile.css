@@ -120,6 +120,7 @@ body, html {
     padding: 8vw;
     overflow: hidden;
     margin-top: 10%;
+    z-index: 1;
   }
   
   .li3 {
@@ -139,4 +140,22 @@ body, html {
 
   .li3 a:hover:not(.active) {
     text-decoration: underline;
+  }
+
+  .logo_menu {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 20%;
+    height: auto;
+    opacity: .5;
+  }
+
+  .exitMenu {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
   }
