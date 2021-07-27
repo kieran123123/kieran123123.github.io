@@ -1,0 +1,164 @@
+body, html {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.bg {
+  background-image: url("../../images/gdpr.jpg");
+
+  /* Set a specific height */
+  min-height: 300px; 
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .3;
+  margin-top: 25vw;
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Navigation menu */
+.ul1 {
+    display: none;
+  }
+
+  .pageContent {
+    width: 90%;
+    height: 60vw;
+    outline: none;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, .8);
+  }
+
+  .para1 {
+    float: left;
+    font-size: 2vw;
+    color: #FFC000;
+  }
+
+  .para2 {
+    float: left;
+    font-size: 2vw;
+  }
+
+  .ul2 {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 70vw;
+    padding: 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .li2 {
+    display: inline-block;
+  }
+  
+  .li2 a {
+    display: block;
+    color: #FFC000;
+    padding: .7vw 8vw;
+    text-decoration: none;
+    font-size: 1vw;
+    cursor: pointer;
+  }
+
+  .li2 a:hover:not(.active) {
+    text-decoration: underline;
+  }
+
+  .menu {
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+    width: 5%;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    transition: .2s ease;
+    background-color: white;
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: -1000%;
+    left: 0%;
+    z-index: 1;
+  }
+  
+  .ul3 {
+    margin: auto;
+    list-style-type: none;
+    padding: 8vw;
+    overflow: hidden;
+    margin-top: 10%;
+    z-index: 1;
+  }
+  
+  .li3 {
+    float: top;
+  }
+  
+  .li3 a {
+    display: block;
+    color: #FFC000;
+    text-align: center;
+    padding: .7vw 1vw;
+    text-decoration: none;
+    font-size: 6vw;
+    cursor: pointer;
+    margin-top: 2%;
+  }
+
+  .li3 a:hover:not(.active) {
+    text-decoration: underline;
+  }
+
+  .logo_menu {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 20%;
+    height: auto;
+    opacity: .5;
+  }
+
+  .exitMenu {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+  }
+
+  .print {
+    width: 10%;
+    cursor: pointer;
+
+    display: none;
+  }
+  
+  .cancelPrinterMd {
+    color: rgba(0, 0, 0, .8);
+    font-size: 2vw;
+    cursor: pointer;
+    display: none;
+    text-decoration: underline;
+
+    display: none;
+  }

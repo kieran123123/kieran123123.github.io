@@ -1,0 +1,144 @@
+body, html {
+    background-image: url("../../images/about_bg.jpg");
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.bg {
+  margin-right: 10%;
+  margin-left: 20%;
+  background-image: url("../../images/Home_services.jpg");
+  height: 28vw; 
+  background-repeat: no-repeat;
+  background-size: 80%;
+  margin-top: 10vw;
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 6%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Navigation menu */
+.ul1 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 80%;
+    max-height: 10%;
+  }
+  
+  .li1 {
+    float: left;
+  }
+  
+  .li1 a {
+    display: block;
+    color: #FFC000;
+    text-align: center;
+    padding: .7vw 1vw;
+    text-decoration: none;
+    font-size: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 15vw;
+  }
+
+  .li1 a:hover:not(.active) {
+    text-decoration: underline;
+  }
+
+  .pageContent {
+    width: 55vw;
+    height: 40%;
+    outline: none;
+    margin: auto;
+    margin-top: -5vw;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, .8);
+  }
+
+  .para1 {
+    float: left;
+    font-size: 1.5vw;
+    border-left: 3px solid #FFC000;
+    padding: 1%;
+  }
+
+  .para2 {
+    float: left;
+    font-size: 1vw;
+    padding: 0%;
+  }
+
+  .ul2 {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 24vw;
+    padding: 0;
+    border-radius: 4px;
+    text-align: center;
+    float: bottom;
+  }
+  
+  .li2 {
+    display: inline-block;
+  }
+  
+  .li2 a {
+    display: block;
+    color: #FFC000;
+    padding: .7vw 5.1vw;
+    text-decoration: none;
+    font-size: 1vw;
+    cursor: pointer;
+  }
+
+  .li2 a:hover:not(.active) {
+    text-decoration: underline;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo_menu {
+    display: none;
+  }
+
+  .exitMenu {
+    display: none;
+  }
+
+  .ul3 {
+    display: none;
+  }
+
+  .print {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 2%;
+    cursor: pointer;
+  }
+  
+.cancelPrinterMd {
+  color: rgba(0, 0, 0, .8);
+  font-size: .7vw;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  cursor: pointer;
+  display: none;
+  text-decoration: underline;
+}
