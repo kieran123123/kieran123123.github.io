@@ -1,0 +1,224 @@
+body, html {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.bg {
+  background-image: url("../../images/contact.jpg");
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .3;
+  margin-top: 10vw;
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 6%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Navigation menu */
+.ul1 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 80%;
+    max-height: 10%;
+  }
+  
+  .li1 {
+    float: left;
+  }
+  
+  .li1 a {
+    display: block;
+    color: #FFC000;
+    text-align: center;
+    padding: .7vw 1vw;
+    text-decoration: none;
+    font-size: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 15vw;
+  }
+
+  .li1 a:hover:not(.active) {
+    text-decoration: underline;
+  }
+
+  .pageContent {
+    width: 55vw;
+    height: 40%;
+    outline: none;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, .8);
+  }
+
+  .para1 {
+    float: left;
+    font-size: 1.5vw;
+    border-left: 3px solid #217c39;
+    padding: 1%;
+  }
+
+  .para2 {
+    float: left;
+    font-size: 1vw;
+    padding: 1%;
+  }
+
+  .para3 {
+    float: left;
+    font-size: 1vw;
+    padding: 1%;
+  }
+
+  .ul2 {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 10vw;
+    padding: 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .li2 {
+    display: inline-block;
+  }
+  
+  .li2 a {
+    display: block;
+    color: #FFC000;
+    padding: .7vw 5.1vw;
+    text-decoration: none;
+    font-size: 1vw;
+    cursor: pointer;
+  }
+
+  .li2 a:hover:not(.active) {
+    text-decoration: underline;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo_menu {
+    display: none;
+  }
+
+  .exitMenu {
+    display: none;
+  }
+
+  .ul3 {
+    display: none;
+  }
+
+  .form {
+      padding: 2vw;
+      margin: auto;
+      text-align: center;
+      background-color: rgba(255, 192, 0, .2);
+      width: 20%;
+      border-radius: 4px;
+      margin-top: 5vw;
+  }
+
+  .enterName {
+    font-family: Verdana, Geneva, sans-serif;
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .enterEmail {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top: 1vw;
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .enterNumber {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top: 1vw;
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .enterMessage {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top: 1vw;
+    width: 20vw;
+    height: 7vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+  }
+
+  .send {
+    transition: .2s ease;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top: 1vw;
+    background-color: #FFC000;
+    width: 6vw;
+    height: 3vw;
+    color: rgba(84,88,90,.7);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+
+  .send:hover {
+    transition: .2s ease;
+    opacity: .5;
+  }
+
+  .formTitle {
+    font-size: 1vw;
+    color: rgba(84,88,90,.7);
+    margin-bottom: 1.5vw;
+    font-weight: bold;
+  }
